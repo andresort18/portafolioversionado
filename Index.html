@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="flexbox.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="stylesheet" href="Css/flexbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Andres Ortega</title>
     <link rel="shortcut icon" href="Imagenes/Estrellitas cabecera.png" type="image/x-icon">
 </head>
 <body>
     <header class="caja__Cabecera">
         <div class="cabecera__iconos__item">
-            <h2><img src="Imagenes/estrellas-de-navidad.png" alt=""></h2>
+            <h2><img class="icono__estrellitas" src="Imagenes/estrellas-de-navidad.png" alt=""> Andres Ortega</h2>
             <nav class="cabecera__container">
                 <ul class="cabecera__items">
                     <li><a href="#" class="cabecera__sobremi">Sobre mi</a></li>
@@ -38,15 +41,63 @@
         </ul>
         <img class="imagen__rostro" src="Imagenes/Rostro.jpg" alt="Imagen__de_mi_rostro">
     </div>
-    <ul class="skills__container">
-        <li class="Skills__items">
-            <div class="Skills__description">
-                <img src="" alt="" class="icono__skill__item">
-                <p></p>
-            </div>
-        </li>
-    </ul>
+    <main>
+        <section class="sobre__mi">
+            <h2>Sobre mi</h2>
+            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+        </section>
+
+        <section class="skils">
+            <ul class="skills__container">
+                <li class="Skills__items">
+                    <div class="Skills__description">
+                        <img src="Imagenes/html-5.png" alt="icono_de_html" class="icono__skill__item">
+                        <p> HTML 5</p>
+                    </div>
+                </li>
     
+                <li class="Skills__items">
+                    <div class="Skills__description">
+                     <img src="Imagenes/javascript.png" alt="Icono_de_javascript" class="icono__skill__item">
+                     <p> JavaScript </p>
+                    </div>
+                </li>
     
+                <li class="Skills__items">
+                    <div class="Skills__description">
+                        <img src="Imagenes/piton.png" alt="icono_de_python" class="icono__skill__item">
+                        <p> Python </p>
+                    </div>
+                 </li>
+    
+                 <li class="Skills__items">
+                    <div class="Skills__description">
+                        <img src="Imagenes/css-3.png" alt="icono_de_css3" class="icono__skill__item">
+                        <p> CSS </p>
+                    </div>
+                </li>
+    
+                <li class="Skills__items">
+                    <div class="Skills__description">
+                        <img src="Imagenes/react.png" alt="icono_de_react" class="icono__skill__item">
+                        <p> React </p>
+                    </div>
+                </li>
+    
+                <li class="Skills__items">
+                    <div class="Skills__description">
+                        <img src="Imagenes/github.png" alt="icono_de_GIT" class="icono__skill__item">
+                        <p> GIT </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+
+    </main>
 </body>
 </html>
