@@ -16,10 +16,17 @@ header h2{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */ 
 }
 .cabecera__items {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    gap: 10px;
     list-style-type: none; /* Quita los puntos de la lista */
-    margin: 0;
-    padding: 0;
 }
+.cabecera__correo{
+    justify-content: end;
+    display: flex;
+}
+
 .cabecera__items li {
     display: inline; /* Muestra los elementos en línea */
     margin-right: 20px; /* Espacio entre elementos */
@@ -31,8 +38,8 @@ header h2{
 .cabecera__items li a {
     text-decoration: none; /* Quita el subrayado de los enlaces */
     color: #000000; /* Texto negro */
-    font-size: 16px; /* Tamaño de fuente */
-    font-weight: 500; /* Grosor de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold;
 }
 nav a:hover{
     color: #c78c19;
@@ -48,6 +55,7 @@ nav a:hover{
 .descripcion__principal{
     text-align: center;
     font-size: 50px;
+    padding-top: 8px;
 }
 .descripcion__secundaria{
     text-align: center;
@@ -68,9 +76,11 @@ nav a:hover{
 
 .redes__sociales {
     list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0;
-    display: inline-block; /* Para que la lista respete el centro horizontal */
-    vertical-align: middle; /* Alinea la lista verticalmente con respecto al contenedor */
+    display: flex; 
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    
 }
 
 .redes__sociales li {
@@ -96,9 +106,11 @@ nav a:hover{
 }
 
 .imagen__rostro {
+    display: flex;
+    margin: auto;
     border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
-    width: 100px; /* Ancho de la imagen */
-    height: 100px; /* Alto de la imagen */
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen */
 }
 
 .caja_sobremi{
