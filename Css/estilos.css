@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 .icono__estrellitas{
     width: 20px;
     height: 20px;
@@ -276,4 +277,242 @@ nav a:hover{
     font-weight: bold;
 }
 
+.caja__proyectos h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.imagen__proyecto {
+    padding: 5px;
+    width: 600px;
+}
+
+.proyecto__numero__secreto {
+    gap: 20px;
+    padding-top: 20px;
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los ítems */
+    flex-wrap: wrap; 
+}
+
+.boton_repositorio_Juego,
+.boton_demo_Juego {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .caja__proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagen__proyecto {
+        padding: 5px 0; /* Ajuste del padding para dispositivos móviles */
+        width: 400px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+.caja__info_proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caja__info_proyecto h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.caja__info_proyecto p{
+    font-size: 15px;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.boton_repositorio_Juego{
+    height: 20px;
+    background-color: rgb(11, 14, 194);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.boton_repositorio_Juego:hover{
+    background-color: gray;
+}
+
+.boton_demo_Juego{
+    height: 20px;
+    background-color: azure;
+    color: rgb(11, 14, 194);
+    padding: 15px 29px;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: rgb(11, 14, 194);
+    border-width: 1px;
+    border-style: solid;  
+}
+
+.boton_demo_Juego:hover{
+    background-color: gray;
+}
+
+.proyecto__barberia__alura {
+    padding-top: 50px;
+    gap: 20px;
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los ítems */ 
+    
+}
+
+.info_proyecto{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(194, 215, 243);
+}
+.contact_form{  
+  padding-top: 20px;
+  width: 460px; 
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color:#fbfbfb; 
+  padding-left: 30px; 
+}
+
+input{
+  display: flex;
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  .formulario h2{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+  
+  .formulario h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+footer {
+    background-color:gray;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -187,7 +187,78 @@
                     </li>
             </section>
         </div>
-        
+        <div class="caja__proyectos">
+            <h2>Experiencia profesional</h2>
+                <div class="proyecto__numero__secreto">
+                    <div class="imagen__proyecto">
+                        <img src="Imagenes/Juego Adivina el numero.PNG" alt="imagen_proyecto_1">
+                    </div>
+                        <div class="caja__info_proyecto">
+                                <h3>Juego de adivinar el numero secreto</h3>
+                                <p>Challenge alura JuegoSecreto</p>
+                                <a target="_blank" class="boton_repositorio_Juego" href="https://github.com/andresort18/Juego-secreto">Repositorio</a> 
+                                <a target="_blank" class="boton_demo_Juego" href="https://andresort18.github.io/Juego-secreto/">Ver Demo</a>
+                    </div>
+                </div>
+
+                <div class="proyecto__barberia__alura">
+                    <div class="caja__info_proyecto">
+                            <h3>Pagina Barberia Alura</h3>
+                            <p>Proyecto Alura</p>
+                            <a target="_blank" class="boton_repositorio_Juego" href="https://github.com/andresort18/Barberia-Alura">Repositorio</a> 
+                            <a target="_blank" class="boton_demo_Juego" href=" https://andresort18.github.io/Barberia-Alura/">Ver Demo</a>
+                    </div>
+                    <div class="imagen__proyecto">
+                        <img src="Imagenes/Barberia alura.PNG" alt="imagen_proyecto_1">
+                    </div>
+                </div>
+        </div>
+        <div class="contacto">
+            <div class="contact_form">
+                <div class="formulario">      
+                  <h2>Formulario de contacto</h2>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                      <form action="submeter-formulario.php" method="post">       
+                            <p>
+                              <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                            <p>
+                              <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                            <p>
+                              <label for="telefone" class="colocar_telefono">Teléfono
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            </p>       
+                            <p>
+                              <label for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                            </p>    
+                            <p>
+                              <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                              </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                            <p class="aviso">
+                              <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>          
+                      </form>
+                </div>  
+              </div>
+        </div>
     </main>
 </body>
+<footer>
+    <p>&copy; Andres Ortega 2024</p>
+</footer>
 </html>
