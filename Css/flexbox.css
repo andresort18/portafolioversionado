@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .cabecera__items:nth-child(1){ /* En vez de seleccionar las secciones para ocultarlas esta vez fue para mostrarlas */
+        display: none;
+    }
+
+    .caja__proyectos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen__proyecto {
+        padding: 5px 0; 
+        width: 400px;
+    }
+
+    .contacto{
+        width: 300px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}

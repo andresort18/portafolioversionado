@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
 .icono__estrellitas{
     width: 20px;
     height: 20px;
@@ -12,16 +13,16 @@ header h2{
     text-align: right;
 }
 .caja__Cabecera {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #ffffff;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */ 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 .cabecera__items {
     display: flex;
     justify-content: center;
     padding: auto;
     gap: 10px;
-    list-style-type: none; /* Quita los puntos de la lista */
+    list-style-type: none; 
 }
 .cabecera__correo{
     justify-content: end;
@@ -29,17 +30,17 @@ header h2{
 }
 
 .cabecera__items li {
-    display: inline; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espacio entre elementos */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 .cabecera__items li:last-child {
-    margin-right: 0; /* Elimina el margen del último elemento */
+    margin-right: 0;
 }
 .cabecera__items li a {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    color: #000000; /* Texto negro */
-    font-size: 18px; /* Tamaño de fuente */
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 18px; 
     font-weight: bold;
 }
 nav a:hover{
@@ -67,16 +68,16 @@ nav a:hover{
 }
 
 .Info__Principal {
-    text-align: center; /* Alinea el contenido al centro horizontalmente */
-    position: relative; /* Permite posicionar elementos relativos a este div */
+    text-align: center; 
+    position: relative; 
 }
 
 .redes__container {
-    margin-top: 20px; /* Espacio entre la imagen y la lista */
+    margin-top: 20px; 
 }
 
 .redes__sociales {
-    list-style-type: none; /* Quita los puntos de la lista */
+    list-style-type: none; 
     display: flex; 
     justify-content: center;
     padding-top: 10px;
@@ -85,33 +86,33 @@ nav a:hover{
 }
 
 .redes__sociales li {
-    display: inline; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espacio entre elementos */
+    display: inline;
+    margin-right: 20px; 
 }
 
 .redes__sociales li:last-child {
-    margin-right: 0; /* Elimina el margen del último elemento */
+    margin-right: 0; 
 }
 
 .redes__sociales li a {
     padding-left: 2px;
-    display: inline-block; /* Asegura que el enlace tenga ancho y alto */
-    width: 40px; /* Ancho del enlace */
-    height: 40px; /* Alto del enlace */
-    background-size: cover; /* Ajusta el tamaño de la imagen */
+    display: inline-block; 
+    width: 40px; 
+    height: 40px; 
+    background-size: cover; 
 }
 
 .icono__flecha {
-    width: 20px; /* Ancho del icono de flecha */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
+    width: 20px; 
+    vertical-align: middle; 
 }
 
 .imagen__rostro {
     display: flex;
     margin: auto;
-    border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
-    width: 150px; /* Ancho de la imagen */
-    height: 150px; /* Alto de la imagen */
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
 }
 
 .caja_sobremi{
@@ -120,16 +121,16 @@ nav a:hover{
 }
 
 .sobre__mi {
-    border: 3px solid salmon; /* Borde de color azure */
-    padding: 20px; /* Espacio interno */
-    border-radius: 10px; /* Bordes redondeados */
-    width: 80%; /* Ancho del section */
-    margin: 0 auto; /* Centra horizontalmente */
+    border: 3px solid salmon; 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 80%; 
+    margin: 0 auto; 
 }
 
 .sobre__mi h2 {
     font-size: 40px;
-    margin-top: 0; /* Elimina el margen superior del título */
+    margin-top: 0; 
     text-align: center;
 }
 
@@ -142,7 +143,7 @@ nav a:hover{
 .caja_skills{
     padding-top: 20px;
     background-color: azure;
-    text-align: center; /* Alinea el contenido al centro */
+    text-align: center; 
 }
 
 .skils h2{
@@ -151,31 +152,31 @@ nav a:hover{
 }
 
 .skills__container {
-    list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0; /* Elimina el padding por defecto */
-    display: flex; /* Utiliza el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente los ítems */
-    flex-wrap: wrap; /* Permite que los ítems se envuelvan en múltiples líneas */
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .Skills__items {
-    margin: 10px; /* Espacio entre los ítems */
-    text-align: center; /* Alinea el contenido al centro */
+    margin: 10px; 
+    text-align: center; 
 }
 
 .Skills__description {
-    display: flex; /* Utiliza el modelo de caja flexible */
-    flex-direction: column; /* Alinea el texto debajo de la imagen */
-    align-items: center; /* Centra los elementos verticalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .icono__skill__item {
-    width: 100px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100px; 
+    height: auto; 
 }
 
 .Skills__description p {
-    margin-top: 5px; /* Espacio entre la imagen y el texto */
+    margin-top: 5px; 
 }
 
 
@@ -183,7 +184,7 @@ nav a:hover{
 .caja_hobbis{
     padding-top: 50px;
     background-color: azure;
-    text-align: center; /* Alinea el contenido al centro */
+    text-align: center;
 }
 
 .hobbis h2{
@@ -192,38 +193,38 @@ nav a:hover{
 }
 
 .hobbis__container {
-    list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0; /* Elimina el padding por defecto */
-    display: flex; /* Utiliza el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente los ítems */
-    flex-wrap: wrap; /* Permite que los ítems se envuelvan en múltiples líneas */
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .hobbis__items {
-    margin: 10px; /* Espacio entre los ítems */
-    text-align: center; /* Alinea el contenido al centro */
+    margin: 10px; 
+    text-align: center; 
 }
 
 .hobbis__description {
-    display: flex; /* Utiliza el modelo de caja flexible */
-    flex-direction: column; /* Alinea el texto debajo de la imagen */
-    align-items: center; /* Centra los elementos verticalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .icono__hobbi__item {
-    width: 100px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100px; 
+    height: auto; 
 }
 
 .hobbis__description p {
-    margin-top: 5px; /* Espacio entre la imagen y el texto */
+    margin-top: 5px;
 }
 
 
 .caja__formacion{
     padding-top: 50px;
     background-color: azure;
-    text-align: center; /* Alinea el contenido al centro */
+    text-align: center; 
 }
 
 .mi__Formacion h2{
@@ -233,43 +234,43 @@ nav a:hover{
 
 .formacion__container {
     gap: 20px;
-    list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0; /* Elimina el padding por defecto */
-    display: flex; /* Utiliza el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente los ítems */
-    flex-wrap: wrap; /* Permite que los ítems se envuelvan en múltiples líneas */
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .formacion__items {
-    margin: 10px; /* Espacio entre los ítems */
-    text-align: center; /* Alinea el contenido al centro */
+    margin: 10px; 
+    text-align: center;
 }
 
 .formacion__box{
-    display: flex; /* Utiliza el modelo de caja flexible */
-    flex-direction: column; /* Alinea el texto debajo de la imagen */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color: white; /* Fondo blanco */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Borde redondeado */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
-    width: 200px; /* Ancho del cuadro */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 200px; 
 }
 
 .formacion__description {
-    display: flex; /* Utiliza el modelo de caja flexible */
-    flex-direction: column; /* Alinea el texto debajo de la imagen */
-    align-items: center; /* Centra los elementos verticalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .icono__formacion__item {
-    width: 100px; /* Ancho fijo para todas las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
-    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 .formacion__items p {
-    margin-top: 5px; /* Espacio entre la imagen y el texto */
+    margin-top: 5px; 
     font-size: 15px;
     font-style: italic;
 }
@@ -293,8 +294,8 @@ nav a:hover{
 .proyecto__numero__secreto {
     gap: 20px;
     padding-top: 20px;
-    display: flex; /* Utiliza el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente los ítems */
+    display: flex; 
+    justify-content: center; 
     flex-wrap: wrap; 
 }
 
@@ -303,21 +304,6 @@ nav a:hover{
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
-    .caja__proyectos {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .imagen__proyecto {
-        padding: 5px 0; /* Ajuste del padding para dispositivos móviles */
-        width: 400px;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-}
 .caja__info_proyecto{
     display: flex;
     flex-direction: column;
@@ -366,8 +352,8 @@ nav a:hover{
 .proyecto__barberia__alura {
     padding-top: 50px;
     gap: 20px;
-    display: flex; /* Utiliza el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente los ítems */ 
+    display: flex; 
+    justify-content: center;
     
 }
 
@@ -379,131 +365,68 @@ nav a:hover{
     justify-content: center;
 }
 
-.contacto{
+.container {
     display: flex;
-    justify-content: start;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color:rgb(194, 215, 243);
-}
-.contact_form{  
-  padding-top: 20px;
-  width: 460px; 
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color:#fbfbfb; 
-  padding-left: 30px; 
-}
-
-input{
-  display: flex;
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-}
-
-textarea{
-    background-color: #fbfbfb; 
-    width: 405px; 
-    height: 150px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
-    border-color: #ab4493; 
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
-  
-  label{
-    display: block; 
-    float: center;  
+  .contacto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
+  .contact_form {
+    max-width: 400px;
+  }
   
-  button{
-    height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
-    text-transform: uppercase;
-    background-color: #ab4493; 
-    border-color: #ab4493; 
-    border-style: solid; 
-    border-radius: 10px;  
-    width: 420px;   
+  .formulario {
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    margin-top: 0;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
   }
   
-  
-  button p{
-    color: #fff; 
+  button:hover {
+    background-color: #0056b3;
   }
   
-  
-  span{
-    color: #ab4493; 
-  }
-  
-  
-  .aviso{
-    font-size: 13px;  
-    color: #0e0e0e;  
-  }
-  
-  
-  .formulario h2{
-    font-size: 39px;  
-    text-align: letf; 
-    padding-bottom: 20px; 
-    color: #ab4493;
-  }
-  
-  
-  .formulario h3{
-    font-size: 16px; 
-    padding-bottom: 30px;
-    color: #0e0e0e;   
-  }
-  
-  
-  p{
-    font-size: 14px; 
-    color: #0e0e0e; 
-  }
-  
-  
-  ::-webkit-input-placeholder {
-   color: #a8a8a8;
-  }
-  
-  
-  ::-webkit-textarea-placeholder {
-   color: #a8a8a8;
-  }
-  
-  
-  .formulario input:focus{
-    outline:0;
-    border: 1px solid #97d848;
-  }
-  
-  
-  .formulario textarea:focus{
-    outline:0;
-    border: 1px solid #97d848;
+  .aviso {
+    font-size: 14px;
+    color: #888;
   }
 
 footer {
